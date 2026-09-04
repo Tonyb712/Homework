@@ -19,7 +19,7 @@ while True :
     if radicand == 0 :
         x1 =-b+ math.sqrt(radicand)/(2*a)
         print('One solution:', x1)
-        plt.plot(x1, 0, marker='o', marker='red')
+        plt.plot(x1, 0, marker='o', color='red')
         plt.axhline(0, color='black')
         plt.grid()
         plt.show()
