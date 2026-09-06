@@ -1,8 +1,7 @@
 import matplotlib.pyplot as plt
 
 # defining function to accept the equation, 
-#then open two lists to hold the values, ans also add spacing between the 
-#points
+#then open two lists to hold the values
 def plot_function(fun_str,domain,ns) :
     
     xmin, xmax = domain
